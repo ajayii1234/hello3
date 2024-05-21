@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" width="70px" height="70px" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Edit <code>src/App.js</code> and save to reload. */}
+          Hello world, I love React. It is the best
+          I am a programmer
         </p>
         <a
           className="App-link"
