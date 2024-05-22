@@ -1,12 +1,13 @@
+// MyComponent.js
 import React from 'react';
 
-const AnotherComponent = () => {
+const MyComponent = () => {
   return (
-    <div>
-      <h2>Welcome to Another Component!</h2>
-      <p>This is another simple React component.</p>
+    <div className="container">
+      <h1 className="mt-5">Hello, World!</h1>
+      <p className="lead">This is a simple React component styled with Bootstrap.</p>
     </div>
   );
 };
 
-export default AnotherComponent;
+export default MyComponent;
